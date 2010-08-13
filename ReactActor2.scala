@@ -1,6 +1,7 @@
 import scala.actors._
 // Use of react without loop ,but by calling act() again .Exits when recieving a decimal value
 // but since we use react "Stop Acting" will never gets printed as react never returns
+
 // Steps
 //1) ReactActor.start
 //2) ReactActor ! 10 
